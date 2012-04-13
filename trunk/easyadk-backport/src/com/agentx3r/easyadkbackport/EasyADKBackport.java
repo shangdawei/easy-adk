@@ -46,7 +46,7 @@ import com.android.future.usb.UsbManager;
 public abstract class EasyADKBackport extends Thread{
 
 	// The permission action
-	private static final String ACTION_USB_PERMISSION = "com.agentx3r.moverbot.action.USB_PERMISSION";
+	private static final String ACTION_USB_PERMISSION = "com.agentx3r.easyadkbackport.action.USB_PERMISSION";
 
 	// An instance of accessory and manager
 	private UsbAccessory mAccessory;
