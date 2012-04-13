@@ -46,7 +46,7 @@ import android.hardware.usb.UsbManager;
 public abstract class EasyADK extends Thread{
 
 	// The permission action
-	private static final String ACTION_USB_PERMISSION = "com.agentx3r.moverbot.action.USB_PERMISSION";
+	private static final String ACTION_USB_PERMISSION = "com.agentx3r.easyadk.action.USB_PERMISSION";
 
 	// An instance of accessory and manager
 	private UsbAccessory mAccessory;
